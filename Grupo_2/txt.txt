@@ -1,0 +1,145 @@
+
+Victus@LAPTOP-HLUK2PI9 MINGW64 ~/Documents/repos
+$ git clone https://github.com/jaimejosesaenzdedios/Seccion_46870_0830.git
+Cloning into 'Seccion_46870_0830'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 7 (delta 0), reused 4 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (7/7), done.
+
+Victus@LAPTOP-HLUK2PI9 MINGW64 ~/Documents/repos
+$ cd Seccion_46870_0830/
+
+Victus@LAPTOP-HLUK2PI9 MINGW64 ~/Documents/repos/Seccion_46870_0830 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Victus@LAPTOP-HLUK2PI9 MINGW64 ~/Documents/repos/Seccion_46870_0830 (main)
+$ git checkout Grupo2
+branch 'Grupo2' set up to track 'origin/Grupo2'.
+Switched to a new branch 'Grupo2'
+
+Victus@LAPTOP-HLUK2PI9 MINGW64 ~/Documents/repos/Seccion_46870_0830 (Grupo2)
+$ git status
+On branch Grupo2
+Your branch is up to date with 'origin/Grupo2'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Grupo_2/txt.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Victus@LAPTOP-HLUK2PI9 MINGW64 ~/Documents/repos/Seccion_46870_0830 (Grupo2)
+$ git add .
+
+Victus@LAPTOP-HLUK2PI9 MINGW64 ~/Documents/repos/Seccion_46870_0830 (Grupo2)
+$ git commit -m "prueba"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Victus@LAPTOP-HLUK2PI9.(none)')
+
+Victus@LAPTOP-HLUK2PI9 MINGW64 ~/Documents/repos/Seccion_46870_0830 (Grupo2)
+$ git push
+info: please complete authentication in your browser...
+Everything up-to-date
+
+Victus@LAPTOP-HLUK2PI9 MINGW64 ~/Documents/repos/Seccion_46870_0830 (Grupo2)
+$ git status
+On branch Grupo2
+Your branch is up to date with 'origin/Grupo2'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Grupo_2/txt.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Grupo_2/prueba/
+
+
+Victus@LAPTOP-HLUK2PI9 MINGW64 ~/Documents/repos/Seccion_46870_0830 (Grupo2)
+$ git add .
+
+Victus@LAPTOP-HLUK2PI9 MINGW64 ~/Documents/repos/Seccion_46870_0830 (Grupo2)
+$ git commit -m "prueba2"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Victus@LAPTOP-HLUK2PI9.(none)')
+
+Victus@LAPTOP-HLUK2PI9 MINGW64 ~/Documents/repos/Seccion_46870_0830 (Grupo2)
+$ git push
+Everything up-to-date
+
+Victus@LAPTOP-HLUK2PI9 MINGW64 ~/Documents/repos/Seccion_46870_0830 (Grupo2)
+$ ^C
+
+Victus@LAPTOP-HLUK2PI9 MINGW64 ~/Documents/repos/Seccion_46870_0830 (Grupo2)
+$ git push origin
+Everything up-to-date
+
+Victus@LAPTOP-HLUK2PI9 MINGW64 ~/Documents/repos/Seccion_46870_0830 (Grupo2)
+$ git status
+On branch Grupo2
+Your branch is up to date with 'origin/Grupo2'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   "Grupo_2/prueba/Semana 13 - Indicaciones - Presentaci\303\263n de evidencia 3 - Certificaci\303\263n.pdf"
+        new file:   Grupo_2/txt.txt
+
+
+Victus@LAPTOP-HLUK2PI9 MINGW64 ~/Documents/repos/Seccion_46870_0830 (Grupo2)
+$ git add .
+
+Victus@LAPTOP-HLUK2PI9 MINGW64 ~/Documents/repos/Seccion_46870_0830 (Grupo2)
+$ git commit -m "prueba3"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Victus@LAPTOP-HLUK2PI9.(none)')
+
+Victus@LAPTOP-HLUK2PI9 MINGW64 ~/Documents/repos/Seccion_46870_0830 (Grupo2)
+$ git push origin
+Everything up-to-date
+
+Victus@LAPTOP-HLUK2PI9 MINGW64 ~/Documents/repos/Seccion_46870_0830 (Grupo2)
+$ git push origin main
+Everything up-to-date
+
+Victus@LAPTOP-HLUK2PI9 MINGW64 ~/Documents/repos/Seccion_46870_0830 (Grupo2)
+$
+
