@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Llantas - AutoFinder</title>
+    <link rel="stylesheet" href="css/styles2.css" />
+    <script defer src="js/comparar.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Cabecera -->
+    <header>
+        <div class="logo">
+            <img src="imagenes/logo.png" alt="AutoFinder Logo">
+        </div>
+        <input type="text" placeholder="Buscar productos...">
+        <div class="icons">
+            <div class="icon-item">
+                <img src="imagenes/corazon1.png" alt="Favoritos">
+                <span>Favoritos</span>
+            </div>
+            <div class="icon-item">
+                <img src="imagenes/carrito-de-compras.png" alt="Carrito">
+                <span>Carrito</span>
+            </div>
+            <button class="login-button">Ingresar</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <aside class="filters">
+            <h2>Filtros</h2>
+            <div class="filter-section">
+                <h4>Tipo de Entrega</h4>
+                <label><input type="checkbox"> Envío a domicilio</label><br>
+                <label><input type="checkbox"> Retiro en un punto</label>
+            </div>
+            <div class="filter-section">
+                <h4>Marca</h4>
+                <label><input type="checkbox"> BOSCH</label><br>
+                <label><input type="checkbox"> ETNA</label><br>
+                <label><input type="checkbox"> CAPSA</label><br>
+                <label><input type="checkbox"> ENERJET</label><br>
+            </div>
+            <div class="filter-section">
+                <h4>Calificacion</h4>
+                <label><input type="checkbox"> 5 Estrellas</label><br>
+                <label><input type="checkbox"> 4 Estrellas a más</label><br>
+                <label><input type="checkbox"> 3 Estrellas a más</label><br>
+                <label><input type="checkbox"> 2 Estrellas a más</label><br>
+                <label><input type="checkbox"> 1 Estrellas a más</label><br>
+            </div>
+        </aside>
+
+        <section class="products">
+            <h1>Baterias para Autos</h1>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="imagenes/bateria/bateria 1.1.png" alt="Producto 1">
+                    <p class="brand">BOSCH</p>
+                    <h3>Batería para Auto <br>Bosch S445D</h3>
+                    <p class="price">S/ 399.00 <span class="old-price">S/ 420.00</span></p>
+                    <div class="rating">
+                        <span class="star full">&#9733;</span>
+                        <span class="star full">&#9733;</span>
+                        <span class="star full">&#9733;</span>
+                        <span class="star full">&#9733;</span>
+                        <span class="star half">&#9733;</span>
+                        <span class="reviews">(20)</span>
+                    </div>
+                    <div class="botones-producto">
+                        <a href="https://www.promart.pe/bateria-s445d/p" target="_blank" class="btn-comprar">Comprar en
+                            tienda</a>
+                        <a href="#" class="btn-comparar">Comparar precios</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="imagenes/bateria/bateria 1.2.png" alt="Producto 2">
+                    <p class="brand">ETNA</p>
+                    <h3>Batería para Auto 13 Placas <br>80Ah W-13 PL</h3>
+                    <p class="price">S/ 339.90 <span class="old-price">S/ 369.00</span></p>
+                    <div class="rating">
+                        <span class="star full">&#9733;</span>
+                        <span class="star full">&#9733;</span>
+                        <span class="star full">&#9733;</span>
+                        <span class="star full">&#9733;</span>
+                        <span class="star half">&#9733;</span>
+                        <span class="reviews">(31)</span>
+                    </div>
+                    <div class="botones-producto">
+                        <a href="https://sodimac.falabella.com.pe/sodimac-pe/product/113310567/Bateria-para-Auto-13-Placas-80Ah-W-13-PL/113310569"
+                            target="_blank" class="btn-comprar">Comprar en
+                            tienda</a>
+                        <a href="#" class="btn-comparar">Comparar precios</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="imagenes/bateria/bateria 1.3.png" alt="Producto 3">
+                    <p class="brand">ETNA</p>
+                    <h3>Batería para Auto 13 Placas <br>65Ah W-13 AD</h3>
+                    <p class="price">S/ 309.00 <span class="old-price">S/ 330.00</span></p>
+                    <div class="rating">
+                        <span class="star full">&#9733;</span>
+                        <span class="star full">&#9733;</span>
+                        <span class="star full">&#9733;</span>
+                        <span class="star full">&#9733;</span>
+                        <span class="star half">&#9733;</span>
+                        <span class="reviews">(33)</span>
+                    </div>
+                    <div class="botones-producto">
+                        <a href="https://sodimac.falabella.com.pe/sodimac-pe/product/113312780/Bateria-para-Auto-13-Placas-65Ah-W-13-AD/113312783"
+                            target="_blank" class="btn-comprar">Comprar en
+                            tienda</a>
+                        <a href="#" class="btn-comparar">Comparar precios</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="imagenes/bateria/bateria 1.4.png" alt="Producto 4">
+                    <p class="brand">BOSCH</p>
+                    <h3>Bateria Bosch 15 Placas <br>EFB LN3 70 Ah 680 A</h3>
+                    <p class="price">S/ 947.90 <span class="old-price">S/ 1106.90</span></p>
+                    <div class="rating">
+                        <span class="star full">&#9733;</span>
+                        <span class="star full">&#9733;</span>
+                        <span class="star full">&#9733;</span>
+                        <span class="star full">&#9733;</span>
+                        <span class="star half">&#9733;</span>
+                        <span class="reviews">(25)</span>
+                    </div>
+                    <div class="botones-producto">
+                        <a href="https://simple.ripley.com.pe/bateria-bosch-15-placas-efb-ln3-70-ah-680-a-pmp00001330150?s=mdco"
+                            target="_blank" class="btn-comprar">Comprar en
+                            tienda</a>
+                        <a href="#" class="btn-comparar">Comparar precios</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="imagenes/bateria/bateria 1.5.png" alt="Producto 5">
+                    <p class="brand">CAPSA</p>
+                    <h3>Batería para Auto CAPSA <br>27R 1150/15PLC BR</h3>
+                    <p class="price">S/ 428.00 <span class="old-price">S/ 520.00</span></p>
+                    <div class="rating">
+                        <span class="star full">&#9733;</span>
+                        <span class="star full">&#9733;</span>
+                        <span class="star full">&#9733;</span>
+                        <span class="star full">&#9733;</span>
+                        <span class="star half">&#9733;</span>
+                        <span class="reviews">(27)</span>
+                    </div>
+                    <div class="botones-producto">
+                        <a href="https://www.promart.pe/bateria-para-auto-capsa-27r-1150-15plc-br-1000307300/p"
+                            target="_blank" class="btn-comprar">Comprar en
+                            tienda</a>
+                        <a href="#" class="btn-comparar">Comparar precios</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="imagenes/bateria/bateria 1.6.png" alt="Producto 6">
+                    <p class="brand">ENERJET</p>
+                    <h3>Batería para Camioneta 13 Placas <br>13W75 N2</h3>
+                    <p class="price">S/ 279.90 <span class="old-price">S/ 320.00</span></p>
+                    <div class="rating">
+                        <span class="star full">&#9733;</span>
+                        <span class="star full">&#9733;</span>
+                        <span class="star full">&#9733;</span>
+                        <span class="star full">&#9733;</span>
+                        <span class="star half">&#9733;</span>
+                        <span class="reviews">(51)</span>
+                    </div>
+                    <div class="botones-producto">
+                        <a href="https://sodimac.falabella.com.pe/sodimac-pe/product/113331078/Bateria-para-Camioneta-13-Placas-13W75-N2/113331080"
+                            target="_blank" class="btn-comprar">Comprar en
+                            tienda</a>
+                        <a href="#" class="btn-comparar">Comparar precios</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="imagenes/bateria/bateria 1.7.png" alt="Producto 7">
+                    <p class="brand">ETNA</p>
+                    <h3>Batería para Auto 13 Placas <br>90Ah V-13 PL INV</h3>
+                    <p class="price">S/ 399.00 <span class="old-price">S/ 420.00</span></p>
+                    <div class="rating">
+                        <span class="star full">&#9733;</span>
+                        <span class="star full">&#9733;</span>
+                        <span class="star full">&#9733;</span>
+                        <span class="star full">&#9733;</span>
+                        <span class="star half">&#9733;</span>
+                        <span class="reviews">(25)</span>
+                    </div>
+                    <div class="botones-producto">
+                        <a href="https://sodimac.falabella.com.pe/sodimac-pe/product/113325696/Bateria-para-Auto-13-Placas-90Ah-V-13-PL-INV/113325697"
+                            target="_blank" class="btn-comprar">Comprar en
+                            tienda</a>
+                        <a href="#" class="btn-comparar">Comparar precios</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="imagenes/bateria/bateria 1.8.png" alt="Producto 8">
+                    <p class="brand">BOSCH</p>
+                    <h3>Bateria Bosch 13 Placas 66 <br>HP (S4 70D) 70 Ah 660 A</h3>
+                    <p class="price">S/ 615.90 <span class="old-price">S/ 718.00</span></p>
+                    <div class="rating">
+                        <span class="star full">&#9733;</span>
+                        <span class="star full">&#9733;</span>
+                        <span class="star full">&#9733;</span>
+                        <span class="star full">&#9733;</span>
+                        <span class="star half">&#9733;</span>
+                        <span class="reviews">(40)</span>
+                    </div>
+                    <div class="botones-producto">
+                        <a href="https://simple.ripley.com.pe/bateria-bosch-13-placas-66-hp-s4-70d-70-ah-660-a-pmp00001330124?s=mdco"
+                            target="_blank" class="btn-comprar">Comprar en
+                            tienda</a>
+                        <a href="#" class="btn-comparar">Comparar precios</a>
+                    </div>
+                </div>
+
+                <!-- Puedes duplicar más productos aquí -->
+            </div>
+
+            <div class="pagination">
+                <button>&lt;</button>
+                <button class="active">1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>&gt;</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+    <!-- ...Footer... -->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <!-- Exclusive -->
+            <div class="footer-section exclusive">
+                <h3>Exclusivo</h3>
+                <p>Obten 10% de descuento en tu primer pedido</p>
+                <div class="subscribe-input">
+                    <input type="email" placeholder="Ingresa su correo electronico">
+                    <button><i class="fa-solid fa-play"></i></button>
+                </div>
+            </div>
+
+            <!-- Support -->
+            <div class="footer-section support">
+                <h3>Soporte</h3>
+                <p>Carretera Central Km 11.6,<br>Lima, Perú.</p>
+                <p>grupo1@autofinder.com</p>
+                <p>+51 999 999 999</p>
+            </div>
+
+            <!-- Account -->
+            <div class="footer-section account">
+                <h3>Cuenta</h3>
+                <ul>
+                    <li><a href="#">Mi cuenta</a></li>
+                    <li><a href="#">Iniciar sesión / Registrarse</a></li>
+                    <li><a href="#">Carrrito</a></li>
+                    <li><a href="#">Lista de deseos</a></li>
+                    <li><a href="#">Tienda</a></li>
+                </ul>
+            </div>
+
+            <!-- Quick Link -->
+            <div class="footer-section quick-link">
+                <h3>Centro de Ayuda</h3>
+                <ul>
+                    <li><a href="#">Politica de privacidad</a></li>
+                    <li><a href="#">Terminos de uso</a></li>
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+
+            <!-- Download App -->
+            <div class="footer-section download-app">
+                <h3>Descargar App</h3>
+                <p>Ahorra $3 con la aplicación Solo para Nuevos Usuarios</p>
+                <div class="app-qr">
+                    <i class="fa-solid fa-qrcode" alt="QR Code"></i>
+                    <div class="store-logos">
+                        <div class="google-play">
+                            <i class="fa-brands fa-google-play"></i>
+                            <span>Google Play</span>
+                        </div>
+                        <div class="google-play">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>App Store</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <hr>
+            <p>&copy; Copyright Universidad Tecnologica del Perú - 2025. Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+</body>
+
+
+
+</html>
